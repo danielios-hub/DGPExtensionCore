@@ -9,7 +9,7 @@
 import UIKit 
 
 extension UITableViewCell {
-    static func getIdentifier() -> String {
+    public static func getIdentifier() -> String {
         return String(describing: self)
     }
 }
