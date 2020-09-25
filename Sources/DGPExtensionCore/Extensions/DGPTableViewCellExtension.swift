@@ -9,6 +9,9 @@
 import UIKit 
 
 extension UITableViewCell {
+    
+    /// Get the name class as string
+    /// - Returns: String with the name class
     public static func getIdentifier() -> String {
         return String(describing: self)
     }

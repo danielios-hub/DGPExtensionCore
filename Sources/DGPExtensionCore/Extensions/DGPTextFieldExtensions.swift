@@ -11,7 +11,13 @@ import UIKit
 
 extension UITextField {
     
-    func addDoneButtonToKeyboard(myAction:Selector?, textButton : String, target: Any?){
+    
+    /// Add a done button in the top of the keyboard inside a UIToolbar
+    /// - Parameters:
+    ///   - myAction: a Selector fot the done button
+    ///   - textButton: The text to be display in the button
+    ///   - target: A target for the selector
+    public func addDoneButtonToKeyboard(myAction:Selector?, textButton : String, target: Any?){
         let doneToolbar: UIToolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 300, height: 40))
         doneToolbar.barStyle = UIBarStyle.default
         
@@ -27,22 +33,5 @@ extension UITextField {
         self.inputAccessoryView = doneToolbar
     }
     
-    func addBottomBorder(color: UIColor = UIColor.darkGray) {
-        let border = CALayer()
-        let width = CGFloat(0.5)
-        border.borderColor = color.cgColor
-        border.frame = CGRect(x: 0, y: self.frame.size.height - width, width:  self.frame.size.width - 10, height: self.frame.size.height)
-        border.borderWidth = width
-        self.layer.addSublayer(border)
-        self.layer.masksToBounds = true
-    }
-    
-    func removeBottomBorder() {
-        self.layer.sublayers?.first?.removeFromSuperlayer()
-    }
-    
-    func changeColorBottomLayer(color : UIColor) {
-        self.layer.sublayers?.first?.borderColor = color.cgColor
-    }
 }
 

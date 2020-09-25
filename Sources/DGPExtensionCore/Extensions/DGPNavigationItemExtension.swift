@@ -10,8 +10,10 @@ import UIKit
 
 extension UINavigationItem {
     
-    //call from the nav which is pushing, not the pushed
-    func hideTitleBackButton() {
+    
+    /// Hide the button back of the navigation Item
+    /// - Warning: should be call from the nav which is pushing, not the pushed
+    public func hideTitleBackButton() {
         self.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 }

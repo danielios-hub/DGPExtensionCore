@@ -9,15 +9,24 @@
 import Foundation
 
 extension String {
-    var localized: String {
+    
+    
+    /// use the string as key for the localized String file and get the localized String
+    public var localized: String {
         return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
     }
     
-    func trimming() -> String {
+    
+    /// remove all spaces at the end of the String
+    /// - Returns: The same String without any spaces in the end
+    public func trimming() -> String {
         return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
     
-    func isBlank() -> Bool {
+    
+    /// Check if the String is empty
+    /// - Returns: A Bool value indicating if is empty or not
+    public func isBlank() -> Bool {
         return self == ""
     }
 }

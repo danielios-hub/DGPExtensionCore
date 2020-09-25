@@ -10,7 +10,10 @@ import Foundation
 import UIKit
 
 extension UIImage {
-    func fixOrientationMine() -> UIImage {
+    
+    /// Check if the UIIMage if in the wrong orientation and fix it
+    /// - Returns: an UIImage with the right orientation
+    public func fixOrientationMine() -> UIImage {
         
         if self.imageOrientation == .up {
             return self
@@ -85,7 +88,10 @@ extension UIImage {
         }
     }
     
-    func scaledToSize(_ size: CGSize) -> UIImage {
+    /// Scale un UIImage to a determined size
+    /// - Parameter size: the size to be aplied
+    /// - Returns: an UIImage with a size aplied
+    public func scaledToSize(_ size: CGSize) -> UIImage {
         _ = UIGraphicsBeginImageContext(size)
         _ = UIGraphicsBeginImageContextWithOptions(size, false, 0.0)
         self.draw(in: CGRect(x: 0,y: 0, width: size.width,height: size.height))
@@ -94,7 +100,11 @@ extension UIImage {
         return newImage!
     }
     
-    func alpha(_ value:CGFloat) -> UIImage {
+    
+    /// Apply an alpha value to an UIImage
+    /// - Parameter value: the alpha value
+    /// - Returns: The UIImage with the alpha applied
+    public func alpha(_ value:CGFloat) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(size, false, scale)
         draw(at: CGPoint.zero, blendMode: .normal, alpha: value)
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
@@ -102,7 +112,10 @@ extension UIImage {
         return newImage!
     }
     
-    func imageWithColor(_ tintColor: UIColor) -> UIImage {
+    /// Apply a tint color to an UIImage
+    /// - Parameter tintColor: the UIColor to be applied
+    /// - Returns: the UIImage with a tint color
+    public func imageWithColor(_ tintColor: UIColor) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(self.size, false, self.scale)
         let context = UIGraphicsGetCurrentContext()! as CGContext
         context.translateBy(x: 0, y: self.size.height)

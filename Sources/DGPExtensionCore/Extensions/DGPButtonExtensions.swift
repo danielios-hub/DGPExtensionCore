@@ -11,23 +11,8 @@ import UIKit
 
 extension UIButton {
     
-    fileprivate struct ButtonTag {
-        static var tagKey = "key"
-    }
-    
-    var mySection : Int? {
-        set  {
-            if let value = newValue {
-                objc_setAssociatedObject(self, &ButtonTag.tagKey, value as AnyObject, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
-            }
-        }
-        
-        get {
-            return objc_getAssociatedObject(self, &ButtonTag.tagKey) as? Int
-        }
-    }
-    
-    func animate(){
+    /// Animate the UIButton with a damping effect
+    public func animate(){
         let defaultDuration = 2.0
         let defaultDamping = 0.50
         let defaultVelocity = 6.0
@@ -44,7 +29,9 @@ extension UIButton {
         )
     }
     
-    func centerTextAndImage(spacing: CGFloat) {
+    /// Center text and image in the UIButton
+    /// - Parameter spacing: the spacing between text and image
+    public func centerTextAndImage(spacing: CGFloat) {
         let insetAmount = spacing / 2
         imageEdgeInsets = UIEdgeInsets(top: 0, left: -insetAmount, bottom: 0, right: insetAmount)
         titleEdgeInsets = UIEdgeInsets(top: 0, left: insetAmount, bottom: 0, right: -insetAmount)

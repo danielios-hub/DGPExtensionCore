@@ -11,7 +11,9 @@ import UIKit
 
 extension UILabel {
     
-    func isTruncated() -> Bool {
+    /// Check if the UILabel cant show full text with the current font and frame size or it need to break the text
+    /// - Returns: A bool value indicating the result
+    public func isTruncated() -> Bool {
         if let string = self.text {
             let fontAttr = self.font != nil ? [NSAttributedString.Key.font : self.font!] : [:]
             let size = (string as NSString).boundingRect(with: CGSize(width: self.frame.size.width,
@@ -24,7 +26,8 @@ extension UILabel {
         }
     }
     
-    func underLine() {
+    /// Add an underline to the text as an attributed text to the label
+    public func underLine() {
         if let textUnwrapped = self.text{
             let underlineAttribute = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue]
             let underlineAttributedString = NSAttributedString(string: textUnwrapped, attributes: underlineAttribute)

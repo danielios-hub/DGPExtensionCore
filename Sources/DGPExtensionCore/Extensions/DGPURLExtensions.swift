@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 
-public extension URL {
-    func isUrlImg() -> Bool {
+extension URL {
+    
+    /// Check if the extension of the url if in any of the types ["png", "jpg", "jpeg", "gif", "bmp"]
+    /// - Returns: A bool value indicating the result
+    public func isUrlImg() -> Bool {
         let imageExtensions = ["png", "jpg", "jpeg", "gif", "bmp"]
        
         if imageExtensions.contains(self.pathExtension) {
@@ -20,17 +23,23 @@ public extension URL {
         return false
     }
     
-    func isGif() -> Bool {
+    /// Check if the extension of the url is .gif
+    /// - Returns: A bool value indicating the result
+    public func isGif() -> Bool {
         return self.pathExtension.contains("gif")
     }
     
-    func isUrlVideo() -> Bool {
+    /// Check if the extension of the url is .mp4
+    /// - Returns: A bool value indicating the result
+    public func isUrlVideo() -> Bool {
         let videoExtensions = ["mp4"]
         return videoExtensions.contains(self.pathExtension)
     }
     
-    func getParam(param: String) -> String? {
-        
+    /// check if the URL contains parameters with a particular name
+    /// - Parameter param: the name of the parameter in the url
+    /// - Returns: an optional String with the value of the parameter or nil if not exists
+    public func getParam(param: String) -> String? {
         let urlComponents: URLComponents = URLComponents(url: self, resolvingAgainstBaseURL: false)!
         if let queryItems = urlComponents.queryItems {
             for item in queryItems {
@@ -43,7 +52,9 @@ public extension URL {
         return nil
     }
     
-    func getSizeParameters() -> CGSize? {
+    /// check if the url contains width and height parameters
+    /// - Returns: an optional CGSize with the value of the parameters or nil if not exists
+    public func getSizeParameters() -> CGSize? {
         var width : CGFloat? = nil
         var height : CGFloat? = nil
         let paramWidth = "width"

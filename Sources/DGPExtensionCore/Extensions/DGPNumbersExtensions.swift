@@ -9,16 +9,12 @@
 import Foundation
 
 extension Double {
-    func roundToPlaces(places:Int) -> Double {
+    
+    /// Round an integer to a specific number of decimals
+    /// - Parameter places: numbers of decimals to show
+    /// - Returns: A Double rounded
+    public func roundToPlaces(places:Int) -> Double {
         let divisor = pow(10.0, Double(places))
         return Darwin.round(self * divisor) / divisor
     }
-}
-
-extension Int {
-    
-    func toString() -> String {
-        return String(self)
-    }
-    
 }

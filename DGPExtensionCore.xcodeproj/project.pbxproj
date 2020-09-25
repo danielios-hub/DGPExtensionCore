@@ -21,20 +21,20 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		C7E88982251E29CE00BCD45E /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88974251E29CD00BCD45E /* ViewExtension.swift */; };
-		C7E88983251E29CE00BCD45E /* Labelextensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88975251E29CD00BCD45E /* Labelextensions.swift */; };
-		C7E88984251E29CE00BCD45E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88976251E29CD00BCD45E /* StringExtensions.swift */; };
-		C7E88985251E29CE00BCD45E /* UrlExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88977251E29CD00BCD45E /* UrlExtensions.swift */; };
-		C7E88986251E29CE00BCD45E /* ErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88978251E29CD00BCD45E /* ErrorExtensions.swift */; };
-		C7E88987251E29CE00BCD45E /* NavigationItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88979251E29CD00BCD45E /* NavigationItemExtension.swift */; };
-		C7E88988251E29CE00BCD45E /* ButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897A251E29CD00BCD45E /* ButtonExtensions.swift */; };
-		C7E88989251E29CE00BCD45E /* TextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897B251E29CD00BCD45E /* TextFieldExtensions.swift */; };
-		C7E8898A251E29CE00BCD45E /* TextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897C251E29CD00BCD45E /* TextViewExtensions.swift */; };
-		C7E8898B251E29CE00BCD45E /* NumbersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897D251E29CD00BCD45E /* NumbersExtensions.swift */; };
-		C7E8898C251E29CE00BCD45E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897E251E29CD00BCD45E /* Colors.swift */; };
-		C7E8898D251E29CE00BCD45E /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897F251E29CD00BCD45E /* ImageExtensions.swift */; };
-		C7E8898E251E29CE00BCD45E /* ExtensionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88980251E29CD00BCD45E /* ExtensionTableViewCell.swift */; };
-		C7E8898F251E29CE00BCD45E /* NavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88981251E29CE00BCD45E /* NavigationControllerExtensions.swift */; };
+		C7E88982251E29CE00BCD45E /* DGPViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88974251E29CD00BCD45E /* DGPViewExtension.swift */; };
+		C7E88983251E29CE00BCD45E /* DGPLabelextensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88975251E29CD00BCD45E /* DGPLabelextensions.swift */; };
+		C7E88984251E29CE00BCD45E /* DGPStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88976251E29CD00BCD45E /* DGPStringExtensions.swift */; };
+		C7E88985251E29CE00BCD45E /* DGPURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88977251E29CD00BCD45E /* DGPURLExtensions.swift */; };
+		C7E88986251E29CE00BCD45E /* DGPErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88978251E29CD00BCD45E /* DGPErrorExtensions.swift */; };
+		C7E88987251E29CE00BCD45E /* DGPNavigationItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88979251E29CD00BCD45E /* DGPNavigationItemExtension.swift */; };
+		C7E88988251E29CE00BCD45E /* DGPButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897A251E29CD00BCD45E /* DGPButtonExtensions.swift */; };
+		C7E88989251E29CE00BCD45E /* DGPTextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897B251E29CD00BCD45E /* DGPTextFieldExtensions.swift */; };
+		C7E8898A251E29CE00BCD45E /* DGPTextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897C251E29CD00BCD45E /* DGPTextViewExtensions.swift */; };
+		C7E8898B251E29CE00BCD45E /* DGPNumbersExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897D251E29CD00BCD45E /* DGPNumbersExtensions.swift */; };
+		C7E8898C251E29CE00BCD45E /* DGPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897E251E29CD00BCD45E /* DGPColors.swift */; };
+		C7E8898D251E29CE00BCD45E /* DGPImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897F251E29CD00BCD45E /* DGPImageExtensions.swift */; };
+		C7E8898E251E29CE00BCD45E /* DGPTableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88980251E29CD00BCD45E /* DGPTableViewCellExtension.swift */; };
+		C7E8898F251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88981251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift */; };
 		OBJ_23 /* DGPExtensionCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DGPExtensionCore.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* DGPExtensionCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DGPExtensionCoreTests.swift */; };
@@ -60,20 +60,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7E88974251E29CD00BCD45E /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
-		C7E88975251E29CD00BCD45E /* Labelextensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Labelextensions.swift; sourceTree = "<group>"; };
-		C7E88976251E29CD00BCD45E /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		C7E88977251E29CD00BCD45E /* UrlExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlExtensions.swift; sourceTree = "<group>"; };
-		C7E88978251E29CD00BCD45E /* ErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtensions.swift; sourceTree = "<group>"; };
-		C7E88979251E29CD00BCD45E /* NavigationItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItemExtension.swift; sourceTree = "<group>"; };
-		C7E8897A251E29CD00BCD45E /* ButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtensions.swift; sourceTree = "<group>"; };
-		C7E8897B251E29CD00BCD45E /* TextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtensions.swift; sourceTree = "<group>"; };
-		C7E8897C251E29CD00BCD45E /* TextViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewExtensions.swift; sourceTree = "<group>"; };
-		C7E8897D251E29CD00BCD45E /* NumbersExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersExtensions.swift; sourceTree = "<group>"; };
-		C7E8897E251E29CD00BCD45E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		C7E8897F251E29CD00BCD45E /* ImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
-		C7E88980251E29CD00BCD45E /* ExtensionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTableViewCell.swift; sourceTree = "<group>"; };
-		C7E88981251E29CE00BCD45E /* NavigationControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerExtensions.swift; sourceTree = "<group>"; };
+		C7E88974251E29CD00BCD45E /* DGPViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPViewExtension.swift; sourceTree = "<group>"; };
+		C7E88975251E29CD00BCD45E /* DGPLabelextensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPLabelextensions.swift; sourceTree = "<group>"; };
+		C7E88976251E29CD00BCD45E /* DGPStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPStringExtensions.swift; sourceTree = "<group>"; };
+		C7E88977251E29CD00BCD45E /* DGPURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPURLExtensions.swift; sourceTree = "<group>"; };
+		C7E88978251E29CD00BCD45E /* DGPErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPErrorExtensions.swift; sourceTree = "<group>"; };
+		C7E88979251E29CD00BCD45E /* DGPNavigationItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPNavigationItemExtension.swift; sourceTree = "<group>"; };
+		C7E8897A251E29CD00BCD45E /* DGPButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPButtonExtensions.swift; sourceTree = "<group>"; };
+		C7E8897B251E29CD00BCD45E /* DGPTextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPTextFieldExtensions.swift; sourceTree = "<group>"; };
+		C7E8897C251E29CD00BCD45E /* DGPTextViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPTextViewExtensions.swift; sourceTree = "<group>"; };
+		C7E8897D251E29CD00BCD45E /* DGPNumbersExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPNumbersExtensions.swift; sourceTree = "<group>"; };
+		C7E8897E251E29CD00BCD45E /* DGPColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPColors.swift; sourceTree = "<group>"; };
+		C7E8897F251E29CD00BCD45E /* DGPImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPImageExtensions.swift; sourceTree = "<group>"; };
+		C7E88980251E29CD00BCD45E /* DGPTableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPTableViewCellExtension.swift; sourceTree = "<group>"; };
+		C7E88981251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPNavigationControllerExtensions.swift; sourceTree = "<group>"; };
 		"DGPExtensionCore::DGPExtensionCore::Product" /* DGPExtensionCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DGPExtensionCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DGPExtensionCore::DGPExtensionCoreTests::Product" /* DGPExtensionCoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DGPExtensionCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* DGPExtensionCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGPExtensionCoreTests.swift; sourceTree = "<group>"; };
@@ -105,20 +105,20 @@
 		C7E88973251E299F00BCD45E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C7E8897A251E29CD00BCD45E /* ButtonExtensions.swift */,
-				C7E8897E251E29CD00BCD45E /* Colors.swift */,
-				C7E88978251E29CD00BCD45E /* ErrorExtensions.swift */,
-				C7E88980251E29CD00BCD45E /* ExtensionTableViewCell.swift */,
-				C7E8897F251E29CD00BCD45E /* ImageExtensions.swift */,
-				C7E88975251E29CD00BCD45E /* Labelextensions.swift */,
-				C7E88981251E29CE00BCD45E /* NavigationControllerExtensions.swift */,
-				C7E88979251E29CD00BCD45E /* NavigationItemExtension.swift */,
-				C7E8897D251E29CD00BCD45E /* NumbersExtensions.swift */,
-				C7E88976251E29CD00BCD45E /* StringExtensions.swift */,
-				C7E8897B251E29CD00BCD45E /* TextFieldExtensions.swift */,
-				C7E8897C251E29CD00BCD45E /* TextViewExtensions.swift */,
-				C7E88977251E29CD00BCD45E /* UrlExtensions.swift */,
-				C7E88974251E29CD00BCD45E /* ViewExtension.swift */,
+				C7E8897A251E29CD00BCD45E /* DGPButtonExtensions.swift */,
+				C7E8897E251E29CD00BCD45E /* DGPColors.swift */,
+				C7E88978251E29CD00BCD45E /* DGPErrorExtensions.swift */,
+				C7E88980251E29CD00BCD45E /* DGPTableViewCellExtension.swift */,
+				C7E8897F251E29CD00BCD45E /* DGPImageExtensions.swift */,
+				C7E88975251E29CD00BCD45E /* DGPLabelextensions.swift */,
+				C7E88981251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift */,
+				C7E88979251E29CD00BCD45E /* DGPNavigationItemExtension.swift */,
+				C7E8897D251E29CD00BCD45E /* DGPNumbersExtensions.swift */,
+				C7E88976251E29CD00BCD45E /* DGPStringExtensions.swift */,
+				C7E8897B251E29CD00BCD45E /* DGPTextFieldExtensions.swift */,
+				C7E8897C251E29CD00BCD45E /* DGPTextViewExtensions.swift */,
+				C7E88977251E29CD00BCD45E /* DGPURLExtensions.swift */,
+				C7E88974251E29CD00BCD45E /* DGPViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -264,21 +264,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				C7E88984251E29CE00BCD45E /* StringExtensions.swift in Sources */,
-				C7E8898C251E29CE00BCD45E /* Colors.swift in Sources */,
-				C7E88985251E29CE00BCD45E /* UrlExtensions.swift in Sources */,
-				C7E88986251E29CE00BCD45E /* ErrorExtensions.swift in Sources */,
-				C7E8898A251E29CE00BCD45E /* TextViewExtensions.swift in Sources */,
-				C7E88983251E29CE00BCD45E /* Labelextensions.swift in Sources */,
-				C7E88987251E29CE00BCD45E /* NavigationItemExtension.swift in Sources */,
-				C7E8898E251E29CE00BCD45E /* ExtensionTableViewCell.swift in Sources */,
-				C7E88988251E29CE00BCD45E /* ButtonExtensions.swift in Sources */,
-				C7E88982251E29CE00BCD45E /* ViewExtension.swift in Sources */,
-				C7E8898D251E29CE00BCD45E /* ImageExtensions.swift in Sources */,
-				C7E8898F251E29CE00BCD45E /* NavigationControllerExtensions.swift in Sources */,
-				C7E88989251E29CE00BCD45E /* TextFieldExtensions.swift in Sources */,
+				C7E88984251E29CE00BCD45E /* DGPStringExtensions.swift in Sources */,
+				C7E8898C251E29CE00BCD45E /* DGPColors.swift in Sources */,
+				C7E88985251E29CE00BCD45E /* DGPURLExtensions.swift in Sources */,
+				C7E88986251E29CE00BCD45E /* DGPErrorExtensions.swift in Sources */,
+				C7E8898A251E29CE00BCD45E /* DGPTextViewExtensions.swift in Sources */,
+				C7E88983251E29CE00BCD45E /* DGPLabelextensions.swift in Sources */,
+				C7E88987251E29CE00BCD45E /* DGPNavigationItemExtension.swift in Sources */,
+				C7E8898E251E29CE00BCD45E /* DGPTableViewCellExtension.swift in Sources */,
+				C7E88988251E29CE00BCD45E /* DGPButtonExtensions.swift in Sources */,
+				C7E88982251E29CE00BCD45E /* DGPViewExtension.swift in Sources */,
+				C7E8898D251E29CE00BCD45E /* DGPImageExtensions.swift in Sources */,
+				C7E8898F251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift in Sources */,
+				C7E88989251E29CE00BCD45E /* DGPTextFieldExtensions.swift in Sources */,
 				OBJ_23 /* DGPExtensionCore.swift in Sources */,
-				C7E8898B251E29CE00BCD45E /* NumbersExtensions.swift in Sources */,
+				C7E8898B251E29CE00BCD45E /* DGPNumbersExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
