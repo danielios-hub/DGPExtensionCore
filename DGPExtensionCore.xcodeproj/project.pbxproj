@@ -36,7 +36,6 @@
 		C7E8898E251E29CE00BCD45E /* DGPTableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88980251E29CD00BCD45E /* DGPTableViewCellExtension.swift */; };
 		C7E8898F251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88981251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift */; };
 		OBJ_23 /* DGPExtensionCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DGPExtensionCore.swift */; };
-		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* DGPExtensionCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DGPExtensionCoreTests.swift */; };
 		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
 		OBJ_44 /* DGPExtensionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DGPExtensionCore::DGPExtensionCore::Product" /* DGPExtensionCore.framework */; };
@@ -150,7 +149,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -159,7 +158,6 @@
 				OBJ_14 /* Products */,
 				OBJ_17 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -216,20 +214,6 @@
 			productReference = "DGPExtensionCore::DGPExtensionCoreTests::Product" /* DGPExtensionCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		"DGPExtensionCore::SwiftPMPackageDescription" /* DGPExtensionCorePackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_26 /* Build configuration list for PBXNativeTarget "DGPExtensionCorePackageDescription" */;
-			buildPhases = (
-				OBJ_29 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DGPExtensionCorePackageDescription;
-			productName = DGPExtensionCorePackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,13 +230,12 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				"DGPExtensionCore::DGPExtensionCore" /* DGPExtensionCore */,
-				"DGPExtensionCore::SwiftPMPackageDescription" /* DGPExtensionCorePackageDescription */,
 				"DGPExtensionCore::DGPExtensionCorePackageTests::ProductTarget" /* DGPExtensionCorePackageTests */,
 				"DGPExtensionCore::DGPExtensionCoreTests" /* DGPExtensionCoreTests */,
 			);
@@ -279,14 +262,6 @@
 				C7E88989251E29CE00BCD45E /* DGPTextFieldExtensions.swift in Sources */,
 				OBJ_23 /* DGPExtensionCore.swift in Sources */,
 				C7E8898B251E29CE00BCD45E /* DGPNumbersExtensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_30 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,24 +343,6 @@
 				TARGET_NAME = DGPExtensionCore;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -519,15 +476,6 @@
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
 				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_26 /* Build configuration list for PBXNativeTarget "DGPExtensionCorePackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_27 /* Debug */,
-				OBJ_28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
