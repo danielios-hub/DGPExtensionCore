@@ -6,20 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"DGPExtensionCore::DGPExtensionCorePackageTests::ProductTarget" /* DGPExtensionCorePackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_32 /* Build configuration list for PBXAggregateTarget "DGPExtensionCorePackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_35 /* PBXTargetDependency */,
-			);
-			name = DGPExtensionCorePackageTests;
-			productName = DGPExtensionCorePackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		C7E88982251E29CE00BCD45E /* DGPViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88974251E29CD00BCD45E /* DGPViewExtension.swift */; };
 		C7E88983251E29CE00BCD45E /* DGPLabelextensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88975251E29CD00BCD45E /* DGPLabelextensions.swift */; };
@@ -35,28 +21,7 @@
 		C7E8898D251E29CE00BCD45E /* DGPImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8897F251E29CD00BCD45E /* DGPImageExtensions.swift */; };
 		C7E8898E251E29CE00BCD45E /* DGPTableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88980251E29CD00BCD45E /* DGPTableViewCellExtension.swift */; };
 		C7E8898F251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E88981251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift */; };
-		OBJ_23 /* DGPExtensionCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DGPExtensionCore.swift */; };
-		OBJ_41 /* DGPExtensionCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DGPExtensionCoreTests.swift */; };
-		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
-		OBJ_44 /* DGPExtensionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "DGPExtensionCore::DGPExtensionCore::Product" /* DGPExtensionCore.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C7E88968251E287E00BCD45E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "DGPExtensionCore::DGPExtensionCoreTests";
-			remoteInfo = DGPExtensionCoreTests;
-		};
-		C7E88969251E287E00BCD45E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "DGPExtensionCore::DGPExtensionCore";
-			remoteInfo = DGPExtensionCore;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C7E88974251E29CD00BCD45E /* DGPViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPViewExtension.swift; sourceTree = "<group>"; };
@@ -74,12 +39,8 @@
 		C7E88980251E29CD00BCD45E /* DGPTableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPTableViewCellExtension.swift; sourceTree = "<group>"; };
 		C7E88981251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGPNavigationControllerExtensions.swift; sourceTree = "<group>"; };
 		"DGPExtensionCore::DGPExtensionCore::Product" /* DGPExtensionCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DGPExtensionCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"DGPExtensionCore::DGPExtensionCoreTests::Product" /* DGPExtensionCoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DGPExtensionCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_12 /* DGPExtensionCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGPExtensionCoreTests.swift; sourceTree = "<group>"; };
-		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* DGPExtensionCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGPExtensionCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_43 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_44 /* DGPExtensionCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,28 +75,9 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		OBJ_10 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_11 /* DGPExtensionCoreTests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_11 /* DGPExtensionCoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_12 /* DGPExtensionCoreTests.swift */,
-				OBJ_13 /* XCTestManifests.swift */,
-			);
-			name = DGPExtensionCoreTests;
-			path = Tests/DGPExtensionCoreTests;
-			sourceTree = SOURCE_ROOT;
-		};
 		OBJ_14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"DGPExtensionCore::DGPExtensionCoreTests::Product" /* DGPExtensionCoreTests.xctest */,
 				"DGPExtensionCore::DGPExtensionCore::Product" /* DGPExtensionCore.framework */,
 			);
 			name = Products;
@@ -154,7 +88,6 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
 				OBJ_14 /* Products */,
 				OBJ_17 /* README.md */,
 			);
@@ -172,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				C7E88973251E299F00BCD45E /* Extensions */,
-				OBJ_9 /* DGPExtensionCore.swift */,
 			);
 			name = DGPExtensionCore;
 			path = Sources/DGPExtensionCore;
@@ -197,23 +129,6 @@
 			productReference = "DGPExtensionCore::DGPExtensionCore::Product" /* DGPExtensionCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"DGPExtensionCore::DGPExtensionCoreTests" /* DGPExtensionCoreTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "DGPExtensionCoreTests" */;
-			buildPhases = (
-				OBJ_40 /* Sources */,
-				OBJ_43 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_45 /* PBXTargetDependency */,
-			);
-			name = DGPExtensionCoreTests;
-			productName = DGPExtensionCoreTests;
-			productReference = "DGPExtensionCore::DGPExtensionCoreTests::Product" /* DGPExtensionCoreTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -236,8 +151,6 @@
 			projectRoot = "";
 			targets = (
 				"DGPExtensionCore::DGPExtensionCore" /* DGPExtensionCore */,
-				"DGPExtensionCore::DGPExtensionCorePackageTests::ProductTarget" /* DGPExtensionCorePackageTests */,
-				"DGPExtensionCore::DGPExtensionCoreTests" /* DGPExtensionCoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,34 +173,11 @@
 				C7E8898D251E29CE00BCD45E /* DGPImageExtensions.swift in Sources */,
 				C7E8898F251E29CE00BCD45E /* DGPNavigationControllerExtensions.swift in Sources */,
 				C7E88989251E29CE00BCD45E /* DGPTextFieldExtensions.swift in Sources */,
-				OBJ_23 /* DGPExtensionCore.swift in Sources */,
 				C7E8898B251E29CE00BCD45E /* DGPNumbersExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_41 /* DGPExtensionCoreTests.swift in Sources */,
-				OBJ_42 /* XCTestManifests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		OBJ_35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "DGPExtensionCore::DGPExtensionCoreTests" /* DGPExtensionCoreTests */;
-			targetProxy = C7E88968251E287E00BCD45E /* PBXContainerItemProxy */;
-		};
-		OBJ_45 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "DGPExtensionCore::DGPExtensionCore" /* DGPExtensionCore */;
-			targetProxy = C7E88969251E287E00BCD45E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		OBJ_20 /* Debug */ = {
@@ -365,75 +255,13 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
-		};
-		OBJ_33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = DGPExtensionCore.xcodeproj/DGPExtensionCoreTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = DGPExtensionCoreTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		OBJ_39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = DGPExtensionCore.xcodeproj/DGPExtensionCoreTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = DGPExtensionCoreTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
 		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -451,8 +279,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
@@ -476,24 +304,6 @@
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
 				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_32 /* Build configuration list for PBXAggregateTarget "DGPExtensionCorePackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_33 /* Debug */,
-				OBJ_34 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_37 /* Build configuration list for PBXNativeTarget "DGPExtensionCoreTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_38 /* Debug */,
-				OBJ_39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

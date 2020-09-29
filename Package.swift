@@ -22,8 +22,5 @@ let package = Package(
         .target(
             name: "DGPExtensionCore",
             dependencies: []),
-        .testTarget(
-            name: "DGPExtensionCoreTests",
-            dependencies: ["DGPExtensionCore"]),
     ]
 )
