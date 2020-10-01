@@ -58,8 +58,13 @@ extension UIView {
     
     /// Load a view from and xib file name the same as the view
     /// - Returns: the view loaded from the xib
-    public class func fromNib<T: UIView>() -> T {
-        return Bundle(for: T.self).loadNibNamed(String(describing: T.self), owner: nil, options: nil)![0] as! T
+    public class func fromNib<T: UIView>(_ bundleID: String?) -> T {
+        if let bundleID = bundleID,
+            let bundle = Bundle(identifier: bundleID) {
+            return bundle.loadNibNamed(String(describing: T.self), owner: nil, options: nil)![0] as! T
+        } else {
+            return Bundle(for: T.self).loadNibNamed(String(describing: T.self), owner: nil, options: nil)![0] as! T
+        }
     }
     
     /// Apply a bottom border to the UITextField
