@@ -1,3 +1,3 @@
 # DGPExtensionCore
 
-A description of this package.
+List of reusable extensions
